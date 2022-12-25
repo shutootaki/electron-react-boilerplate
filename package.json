@@ -109,6 +109,10 @@
     }
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@mantine/core": "^5.9.5",
+    "@mantine/form": "^5.9.5",
+    "@mantine/hooks": "^5.9.5",
     "electron-debug": "^3.2.0",
     "electron-log": "^4.4.8",
     "electron-updater": "^5.2.3",
