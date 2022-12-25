@@ -1,6 +1,6 @@
 import React, { Suspense, useEffect, useState } from 'react';
 import { Todo } from 'types/Types';
-import { Button } from '@mantine/core';
+import { Button, TextInput } from '@mantine/core';
 
 const Home: React.FC = () => {
   const [text, setText] = useState('');
@@ -31,7 +31,11 @@ const Home: React.FC = () => {
 
   return (
     <Suspense>
-      <Button>Click me!</Button>;
+      <div>
+        <TextInput placeholder="Input your Task" label="Task" withAsterisk />
+        <br />
+        <Button>Add!</Button>
+      </div>
     </Suspense>
   );
 };
